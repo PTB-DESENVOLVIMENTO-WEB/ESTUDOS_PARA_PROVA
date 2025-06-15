@@ -10,3 +10,19 @@
   background-color: #003366;
   padding: 15px;
 }
+
+
+.menu-nav a {
+  color: white; /* Muda a cor do texto para branco */
+  text-decoration: none; /* REMOVE O SUBLINHADO! */
+  font-family: Arial, sans-serif; /* Define uma fonte mais limpa */
+  font-weight: bold; /* Deixa o texto em negrito */
+  padding: 10px 15px; /* Adiciona espaçamento interno para aumentar a área de clique */
+  border-radius: 5px; /* Arredonda as bordas (para o efeito de hover) */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave */
+}
+
+/* Estiliza o link QUANDO O MOUSE ESTÁ EM CIMA */
+.menu-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.15); /* Adiciona um fundo sutil ao passar o mouse */
+}
