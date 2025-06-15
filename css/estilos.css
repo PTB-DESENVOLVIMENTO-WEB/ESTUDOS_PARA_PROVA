@@ -22,4 +22,10 @@
   text-decoration: overline underline;
 }
 
+.centralizar_bloco{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
