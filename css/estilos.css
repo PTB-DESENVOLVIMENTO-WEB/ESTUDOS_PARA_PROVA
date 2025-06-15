@@ -1,13 +1,13 @@
 .titulo_principal{
   font-family: Lora, Aptos, "sans serif";
-  text-aling: center;
+  text-align: center;
   font-size: 14pt;
   font-weight: bold;
   color: black;
 }
 
 .center {
-  text-aling: center
+  text-align: center
 }
 
 .underline {
@@ -16,6 +16,10 @@
 
 .overline {
   text-decoration: overline;
+}
+
+.overline_underline{
+  text-decoration: overline underline;
 }
 
 
