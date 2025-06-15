@@ -1,3 +1,11 @@
+.titulo_principal{
+  font-family: Lora, Aptos, "sans serif";
+  text-aling: center;
+  font-size: 14pt;
+  font-weight: bold;
+  color: black;
+}
+
 .center {
   text-aling: center
 }
