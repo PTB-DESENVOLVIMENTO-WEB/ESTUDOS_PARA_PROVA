@@ -1,7 +1,7 @@
 .menu-nav {
   display: flex; /* 1. Ativa o modo Flexbox */
   
-  flex-direction: row; /* (Opcional) Define o eixo principal como uma linha. É o padrão. */
+  flex-direction: column; /* (Opcional) Define o eixo principal como uma linha. É o padrão. */
 
   justify-content: space-around; /* 2. Distribui os itens HORIZONTALMENTE com espaço ao redor. */
 
