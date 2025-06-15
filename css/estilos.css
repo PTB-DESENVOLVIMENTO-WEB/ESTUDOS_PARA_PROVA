@@ -1,3 +1,13 @@
 .center {
   text-aling: center
 }
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+
