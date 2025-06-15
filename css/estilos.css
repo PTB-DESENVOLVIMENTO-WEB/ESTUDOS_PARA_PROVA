@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .titulo_principal{
   font-family: Lora, Aptos, monospace, "sans serif";
   text-align: center;
