@@ -16,6 +16,33 @@ header {
   color: white;
   padding: 20px;
 }
-main { grid-area: main; }
-aside { grid-area: sidebar; }
-footer { grid-area: footer; }
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  grid-area: main; 
+  background-color: white;
+}
+
+aside {
+  grid-area: sidebar; 
+  background-color: #0c0a06;
+  color: white;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #060503;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
