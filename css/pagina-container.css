@@ -10,7 +10,12 @@
   height: 100vh;
 }
 
-header { grid-area: header; }
+header {
+  grid-area: header; 
+  background-color: #060503;
+  color: white;
+  padding: 20px;
+}
 main { grid-area: main; }
 aside { grid-area: sidebar; }
 footer { grid-area: footer; }
