@@ -14,7 +14,10 @@ header {
   grid-area: header; 
   background-color: black;
   color: white;
-  padding: 20px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header a {
@@ -24,6 +27,11 @@ header a {
 
 header a:hover {
   text-decoration: underline;
+}
+
+.logo-header {
+  heigth: 40px;
+  width: auto;
 }
 
 main {
