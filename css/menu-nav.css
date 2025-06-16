@@ -1,18 +1,4 @@
-.menu-nav {
-  display: flex; /* 1. Ativa o modo Flexbox */
-  
-  flex-direction: row; /* (Opcional) Define o eixo principal como uma linha. É o padrão. */
-
-  justify-content: space-around; /* 2. Distribui os itens HORIZONTALMENTE com espaço ao redor. */
-
-  align-items: center; /* 3. Centraliza os itens VERTICALMENTE no meio da altura da nav. */
-  
-  background-color: #000000;
-  padding: 15px;
-}
-
-
-.menu-nav a {
+header nav a {
   color: white; /* Muda a cor do texto para branco */
   text-decoration: none; /* REMOVE O SUBLINHADO! */
   font-family: Arial, sans-serif; /* Define uma fonte mais limpa */
@@ -23,6 +9,6 @@
 }
 
 /* Estiliza o link QUANDO O MOUSE ESTÁ EM CIMA */
-.menu-nav a:hover {
+header nav a:hover {
   background-color: rgba(255, 255, 255, 0.15); /* Adiciona um fundo sutil ao passar o mouse */
 }
