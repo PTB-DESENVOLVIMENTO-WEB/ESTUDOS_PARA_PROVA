@@ -12,7 +12,7 @@
 
 header {
   grid-area: header; 
-  background-color: #060503;
+  background-color: #110e08;
   color: white;
   padding: 20px;
 }
@@ -33,7 +33,7 @@ main {
 
 aside {
   grid-area: sidebar; 
-  background-color: #0c0a06;
+  background-color: #f4f4f4;
   color: white;
   padding: 20px;
   border-right: 1px solid #ddd;
@@ -41,7 +41,7 @@ aside {
 
 footer {
   grid-area: footer;
-  background-color: #060503;
+  background-color: #110e08;
   color: white;
   padding: 20px;
   text-align: center;
